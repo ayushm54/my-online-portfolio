@@ -1,0 +1,24 @@
+.item-list {
+  display: flex;
+  flex-direction: column;
+  -webkit-box-align: center;
+  align-items: center;
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  color: #72716e;
+}
+
+.vl {
+  border-left: 1px solid #72716e;
+  height: 100px;
+}
+
+.icon-color {
+  color: #72716e;
+}
+
+.item {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}

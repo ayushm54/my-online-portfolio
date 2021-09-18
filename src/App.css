@@ -1,0 +1,32 @@
+.content {
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.left-container {
+  width: 40px;
+  position: fixed;
+  bottom: 0px;
+  left: 40px;
+  right: auto;
+  z-index: 10;
+  color: #72716e;
+  @media screen and (max-width: 1080px) {
+    left: 20px;
+    right: auto;
+  }
+}
+
+.right-container {
+  width: 40px;
+  position: fixed;
+  bottom: 0px;
+  left: auto;
+  right: 40px;
+  z-index: 10;
+  color: #72716e;
+  @media screen and (max-width: 1080px) {
+    left: auto;
+    right: 20px;
+  }
+}

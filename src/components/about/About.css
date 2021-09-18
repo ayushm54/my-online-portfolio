@@ -1,0 +1,30 @@
+.hello-text {
+  margin: 140px 0px 10px 4px;
+  color: #e85a4f;
+  font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", monospace;
+  font-size: clamp(14px, 5vw, 16px);
+  font-weight: 400;
+}
+
+.big-heading {
+  margin: 0px;
+  font-size: clamp(40px, 8vw, 80px);
+  font-weight: 600;
+  color: #474745;
+  line-height: 1.1;
+}
+
+.btn-link {
+  color: #e85a4f;
+  background-color: transparent;
+  border: 1px solid #e85a4f;
+  border-radius: 8px;
+  padding: 1.25rem 1.75rem;
+  font-size: 14px;
+  font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", monospace;
+  line-height: 1;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+  margin-top: 50px;
+}
